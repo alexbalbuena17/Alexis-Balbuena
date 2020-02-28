@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="productList.css">
+    </head>
+    <body>
+
+
+
+
+
+
+
+    <div class="container">
+
+        <div id="filter-wrapper">
+            <div>
+                <label>Order By</label>
+                <select id= "orderBy" name="orderBy">
+                    <option value=""> Select Order </option>
+                    <option value="Product">Product</option>
+                    <option value="Name">Name</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Price Range</label>
+                <select id="priceBy" name="priceBy">
+                    <option value="">Select Price Range</option>
+                    <option value="0-9.99">0-9.99</option>
+                    <option value="10-19.99">10-19.99</option>
+                    <option value="20-69.99">20-69.99</option>
+                    <option value="70-420">70-420</option>
+                </select>
+            </div>
+
+
+                    <ul id="products">
+                        <li> <div class="card" value=""></div> </li>
+                        <li> <div class="card">Heading</div> </li>
+                        <li> <div class="card">Heading</div> </li>
+                        <li> <div class="card">Heading</div> </li>
+                        <li> <div class="card">Heading</div> </li>
+                        <li> <div class="card">Heading</div> </li>
+                        <li> <div class="card">Heading</div> </li>
+                        <li> <div class="card">Heading</div> </li>
+                    <div></div>
+                    </ul>
+
+        </div>
+
+    </div>
+
+<script type="text/javascript" src="productList.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
